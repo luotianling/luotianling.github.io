@@ -3176,10 +3176,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://pic.wlog.online/images/home_bg.webp);
-    --darkmode-bg:url(https://pic.wlog.online/images/dark_mode.webp);
-    --mobileday-bg: url(https://pic.wlog.online/images/snow.webp);
-    --mobilenight-bg: url(https://pic.wlog.online/images/mb8.webp);
+    --default-bg: url(https://tuchuang.voooe.cn/images/2024/04/13/home_bg.webp);
+    --darkmode-bg:url(https://tuchuang.voooe.cn/images/2024/04/13/dark_mode.webp);
+    --mobileday-bg: url(https://tuchuang.voooe.cn/images/2024/04/13/snow.webp);
+    --mobilenight-bg: url(https://tuchuang.voooe.cn/images/2024/04/13/mb8.webp);
   }`;
 }
 // 切换背景主函数
