@@ -81,14 +81,6 @@ $.ajax({
     ipLoacation = res;
   }
 })
-// fetch('https://apis.map.qq.com/ws/location/v1/ip?key=4ANBZ-O5WC4-KQ3UD-K2D3Q-4APEE-DMFF2?output=jsonp')
-//     .then(response => response.json())
-//     .then(data => {
-//         ipLocation = data;
-//         console.log(data,888999)
-//         // showWelcome();
-//     })
-//     .catch(error => console.error('Error:', error));
 function getDistance(e1, n1, e2, n2) {
   const R = 6371
   const { sin, cos, asin, PI, hypot } = Math
