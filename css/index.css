@@ -7040,13 +7040,23 @@ h6::before {
 }
 
 /* 全局宽度适配 */
+@media screen and (min-width: 1440px) {
+  .layout {
+    max-width: 1300px;
+    justify-content: space-between;
+  }
+  #ft {
+    max-width: 1300px!important;
+    justify-content: space-between;
+  }
+}
 @media screen and (min-width: 1920px) {
   .layout {
     max-width: 1600px;
     justify-content: space-between;
   }
   #ft {
-    max-width: 1600px;
+    max-width: 1600px!important;
     justify-content: space-between;
   }
 }
