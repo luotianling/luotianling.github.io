@@ -81,6 +81,14 @@ $.ajax({
     ipLoacation = res;
   }
 })
+// fetch('https://apis.map.qq.com/ws/location/v1/ip?key=4ANBZ-O5WC4-KQ3UD-K2D3Q-4APEE-DMFF2?output=jsonp')
+//     .then(response => response.json())
+//     .then(data => {
+//         ipLocation = data;
+//         console.log(data,888999)
+//         // showWelcome();
+//     })
+//     .catch(error => console.error('Error:', error));
 function getDistance(e1, n1, e2, n2) {
   const R = 6371
   const { sin, cos, asin, PI, hypot } = Math
@@ -99,7 +107,7 @@ function getDistance(e1, n1, e2, n2) {
 
 function showWelcome() {
 
-  let dist = getDistance(113.34499552, 23.15537143, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
+  let dist = getDistance(120.13026, 30.25961, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
   let pos = ipLoacation.result.ad_info.nation;
   let ip;
   let posdesc;
@@ -285,7 +293,7 @@ function showWelcome() {
   try {
     //自定义文本和需要放的位置
     document.getElementById("welcome-info").innerHTML =
-      `<b><center>🎉 欢迎信息 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的小伙伴，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里，当前的IP地址为： <span style="color:var(--theme-color)">${ip}</span>， ${posdesc}</b>`;
+      `<b><center>🎉 欢迎信息 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的小伙伴，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里，当前的IP地址为： <span style="color:var(--theme-color);font-size:12px">${ip}</span>， ${posdesc}</b>`;
   } catch (err) {
     // console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")
   }
