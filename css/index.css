@@ -6288,45 +6288,16 @@ blockquote.pullquote.right {
 }
 
 /* 字体引入 */
-@font-face {
-  font-family: YSHST;
-  src: url(https://pic.wlog.online/fonts/优设好身体.woff2);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: MiSans;
-  src: url(https://pic.wlog.online/fonts/fonts/MiSans.woff2);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: HYTMR;
-  src: url(https://pic.wlog.online/fonts/HYTangMeiRen55W.woff2);
-  font-display: swap;
-}
 
 @font-face {
   font-family: LXGW;
-  src: url(https://pic.wlog.online/fonts/霞鹜文楷.woff2);
+  src: url(/assets/fonts/霞鹜文楷.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: TTQHB;
-  src: url(https://pic.wlog.online/fonts/甜甜圈海报字体.woff2);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Consolas_1;
-  src: url(https://pic.wlog.online/fonts/Consolas.woff2);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: ZhuZiAWan;
-  src: url(https://pic.wlog.online/fonts/ZhuZiAWan2.woff2);
+  src: url(/assets/fonts/甜甜圈海报字体.woff2);
   font-display: swap;
 }
 
@@ -7047,7 +7018,6 @@ h6::before {
   }
   #ft {
     max-width: 1300px!important;
-    justify-content: space-between;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -7057,7 +7027,6 @@ h6::before {
   }
   #ft {
     max-width: 1600px!important;
-    justify-content: space-between;
   }
 }
 
