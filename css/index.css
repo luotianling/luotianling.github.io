@@ -6291,13 +6291,13 @@ blockquote.pullquote.right {
 
 @font-face {
   font-family: LXGW;
-  src: url(https://wlog-font.s3.bitiful.net/%E9%9C%9E%E9%B9%9C%E6%96%87%E6%A5%B7.woff2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=7pFAGhC1m9Sxawr0yzUVZWI0%2F20240415%2F%2Fs3%2Faws4_request&X-Amz-Date=20240415T044627Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=6f3690895ed8aeb2d752fce5f06a34e81d36031d1bf6f7062111be324cabc35c);
+  src: url(https://wlog-font.s3.bitiful.net/霞鹜文楷.woff2);
   font-display: swap;
 }
 
 @font-face {
   font-family: TTQHB;
-  src: url(https://wlog-font.s3.bitiful.net/%E7%94%9C%E7%94%9C%E5%9C%88%E6%B5%B7%E6%8A%A5%E5%AD%97%E4%BD%93.woff2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=7pFAGhC1m9Sxawr0yzUVZWI0%2F20240415%2F%2Fs3%2Faws4_request&X-Amz-Date=20240415T044423Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=19d65478839403118e205bd6ba05040296d82fdcbb075b588443a238744ee2a2);
+  src: url(https://wlog-font.s3.bitiful.net/甜甜圈海报字体.woff2);
   font-display: swap;
 }
 
